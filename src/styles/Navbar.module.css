@@ -1,0 +1,141 @@
+.navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  background-color: #ffffff;
+  height: 44px;
+}
+
+.navItemsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navItem {
+  list-style: none;
+}
+
+
+/* Dropdown button styling */
+.navButton {
+  background-color: #ffffff;
+  color: #000000;
+  border-right: 1px solid #b8b8b8;
+  padding: 10.5px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  white-space: nowrap; /* Prevents buttons from breaking text into multiple lines */
+  height: 44px;
+}
+
+
+.navButton:hover {
+  background-color: #580f1f;
+  color: white;
+}
+
+.largeDropdown {
+  background-color: #1d1d1d;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  z-index: 1050;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  top: 160px;
+  height: fit-content;
+}
+
+/* Flexbox for sections in largeDropdown */
+.dropdownContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 2px;
+}
+
+.dropdownColumn {
+  flex: 1;
+  min-width: 300px;
+  margin: 0 15px;
+  padding-bottom: 10px; /* Adds some space between underline and content */
+}
+
+/* Section titles */
+.sectionTitle {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+.linkList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.linkList li {
+  margin-bottom: 8px; /* space between list items */
+  border-bottom: 1px dotted #ffffff; /* visual separator, if desired */
+  padding: 0; /* remove padding from li */
+}
+
+.linkList li a {
+  display: block; /* extends the link to fill the li */
+  color: #ffffff;
+  font-size: 16px;
+  padding: 0.5rem 1rem; /* padding for larger clickable area */
+  text-decoration: none; /* typically removes underline */
+  background-color: transparent; /* ensures no background unless hovered */
+}
+
+.linkList li a:hover {
+  background-color: #580f1f; /* change on hover */
+}
+
+/* Live Chat Button */
+.liveChatButton {
+  background-color: #198754;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  white-space: nowrap;
+  position: absolute;
+  right: 0px;
+  top: 114px;
+  height: 44px;
+}
+
+.liveChatButton:hover {
+  background-color: #145c2e;
+}
+
+.helpButtonContainer {
+  display: flex;
+  align-items: center; 
+}
+
+.helpButton {
+  background-color: #ffffff;
+  color: #000000;
+  border-right: 1px solid #b8b8b8;
+  padding: 13px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  white-space: nowrap; 
+  height: 44px !important; /* Ensures this height is prioritized */
+}
+
+.helpButton:hover {
+  background-color: #580f1f; /* Darker blue on hover */
+  color: white;
+}

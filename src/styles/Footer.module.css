@@ -1,0 +1,124 @@
+/* Footer.module.css */
+
+#msu-footer {
+  background-color: black;
+  color: #fff;
+  padding: 3rem 0;
+  font-size: 0.875rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container-fluid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 719px;
+  padding: 84px 0px;
+}
+
+.left-section {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-right: 50px;
+}
+
+.right-section {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0; /* Remove any gap between the cards */
+}
+
+/* Gradient background for all card elements */
+.gradientCard {
+  background: linear-gradient(to bottom, #222222, #000000);
+  color: #fff;
+  padding: 16px;
+  margin: 0; /* Ensure no margin is causing extra space */
+}
+
+/* Adjustments to ensure no unnecessary space around card content */
+.cardContent {
+  display: flex;
+  align-items: center;
+  padding: 0px 12px; /* Adjust padding if necessary */
+  margin: 0; /* Make sure no margin is causing gaps */
+}
+
+
+/* Logo and icons styling */
+.logo img, .icon {
+  max-width: 60px;
+  margin-right: 1rem;
+  color: #fff;
+}
+
+/* Text alignment for library info, phone, and fax sections */
+.libraryInfo, .contactInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.report-problem-button {
+  background-color: #5d1725;
+  border: none;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+/* Three-column layout for links */
+.linksContainer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 200px;
+}
+
+
+.linksRow {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #6c757d;
+  height: 170px;
+}
+
+.linksContainer ul li {
+  margin-bottom: 0.5rem;
+}
+
+.linksContainer ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.875rem;
+  transition: color 0.3s ease;
+}
+
+
+.disclosure {
+  padding-top: 1rem;
+  color: #ffffff;
+  font-size: 0.75rem;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.disclosure a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.disclosure p {
+  margin-bottom: 10px;
+}

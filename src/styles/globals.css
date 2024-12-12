@@ -1,0 +1,22 @@
+/* globals.css */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Change to your preferred font */
+  line-height: 1.6; /* Ensure line height is comfortable for reading */
+  height: 100%; /* Set full height */
+  overflow-y: scroll; /* Forces scrollbar to be visible */
+}
+
+* {
+  box-sizing: border-box; /* Prevent padding and border from affecting width */
+}
+
+/* Ensure footer is always at the bottom */
+footer {
+  margin-top: auto; /* Push footer down */
+  padding: 10px 0; /* Padding for footer */
+  background-color: #f1f1f1; /* Footer background */
+  text-align: center; /* Center text in footer */
+}
